@@ -27,10 +27,6 @@
   }
 }
 
-.node > label.leaf {
-  padding-left: 0.9em;
-}
-
 .toggle {
   white-space: pre;
   margin-right: 4px;
