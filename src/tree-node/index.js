@@ -120,6 +120,7 @@ class TreeNode extends PureComponent {
       <li className={liCx} style={style} id={liId} {...getDataset(dataset)} {...this.getAriaAttributes()}>
         <Toggle isLeaf={isLeaf(_children)} expanded={expanded} id={_id} onNodeToggle={onNodeToggle} />
         <NodeLabel
+          isLeaf={isLeaf(_children)}
           title={title}
           label={label}
           id={_id}
